@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1 class="heading">Future Value Calculate App</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Future value of
+                    <br> one-time investment is</h3>
+                <span>" <span id="output1"></span> "</span>
+                <input type="text" id="pv1" placeholder="Enter Present Value">
+                <input type="text" id="iv1" placeholder="Enter Interest Value">
+                <input type="text" id="times1" placeholder="Enter Number of Year">
+                <button class="btn" id="btn1">Submit</button>
+
+            </div>
+
+            <div class="box">
+                <h3>Value of starting <br> annual insvestmnet is</h3>
+                <span>" <span id="output2"></span> "</span>
+                <input type="text" id="iNv1" placeholder="Enter Installment Value">
+                <input type="text" id="iv2" placeholder="Enter Interest Value">
+                <input type="text" id="times2" placeholder="Enter Number of Year">
+                <button class="btn" id="btn2">Submit</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
